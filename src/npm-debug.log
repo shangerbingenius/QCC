@@ -1,0 +1,204 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/hejuan/work-js/QCC/src',
+6 verbose install   [ 'angularjs', 'bootstrap', 'ejs', 'express', 'jquery' ] ]
+7 info preinstall application-name@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'angularjs@1.4.10', null ]
+10 verbose cache add name=undefined spec="angularjs@1.4.10" args=["angularjs@1.4.10",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'angularjs@1.4.10',
+11 verbose parsed url   path: 'angularjs@1.4.10',
+11 verbose parsed url   href: 'angularjs@1.4.10' }
+12 verbose cache add [ 'bootstrap@3.3.5', null ]
+13 verbose cache add name=undefined spec="bootstrap@3.3.5" args=["bootstrap@3.3.5",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'bootstrap@3.3.5',
+14 verbose parsed url   path: 'bootstrap@3.3.5',
+14 verbose parsed url   href: 'bootstrap@3.3.5' }
+15 verbose already installed skipping ejs@>= 0.0.1 /home/hejuan/work-js/QCC/src
+16 verbose already installed skipping express@2.5.8 /home/hejuan/work-js/QCC/src
+17 verbose cache add name="angularjs" spec="1.4.10" args=["angularjs","1.4.10"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '1.4.10',
+18 verbose parsed url   path: '1.4.10',
+18 verbose parsed url   href: '1.4.10' }
+19 verbose addNamed [ 'angularjs', '1.4.10' ]
+20 verbose addNamed [ '1.4.10', '1.4.10' ]
+21 verbose cache add name="bootstrap" spec="3.3.5" args=["bootstrap","3.3.5"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '3.3.5',
+22 verbose parsed url   path: '3.3.5',
+22 verbose parsed url   href: '3.3.5' }
+23 verbose addNamed [ 'bootstrap', '3.3.5' ]
+24 verbose addNamed [ '3.3.5', '3.3.5' ]
+25 verbose cache add [ 'jquery@1.11.3', null ]
+26 verbose cache add name=undefined spec="jquery@1.11.3" args=["jquery@1.11.3",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'jquery@1.11.3',
+27 verbose parsed url   path: 'jquery@1.11.3',
+27 verbose parsed url   href: 'jquery@1.11.3' }
+28 silly lockFile c1775325-angularjs-1-4-10 angularjs@1.4.10
+29 verbose lock angularjs@1.4.10 /home/hejuan/.npm/c1775325-angularjs-1-4-10.lock
+30 silly lockFile 85083644-bootstrap-3-3-5 bootstrap@3.3.5
+31 verbose lock bootstrap@3.3.5 /home/hejuan/.npm/85083644-bootstrap-3-3-5.lock
+32 verbose cache add name="jquery" spec="1.11.3" args=["jquery","1.11.3"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '1.11.3',
+33 verbose parsed url   path: '1.11.3',
+33 verbose parsed url   href: '1.11.3' }
+34 verbose addNamed [ 'jquery', '1.11.3' ]
+35 verbose addNamed [ '1.11.3', '1.11.3' ]
+36 silly lockFile 8c49b447-jquery-1-11-3 jquery@1.11.3
+37 verbose lock jquery@1.11.3 /home/hejuan/.npm/8c49b447-jquery-1-11-3.lock
+38 verbose request where is /angularjs
+39 verbose request registry https://registry.npmjs.org/
+40 verbose request id 8d1e7f70070f6f67
+41 verbose url raw /angularjs
+42 verbose url resolving [ 'https://registry.npmjs.org/', './angularjs' ]
+43 verbose url resolved https://registry.npmjs.org/angularjs
+44 verbose request where is https://registry.npmjs.org/angularjs
+45 info trying registry request attempt 1 at 18:45:07
+46 verbose etag W/"57f7a119-769"
+47 http GET https://registry.npmjs.org/angularjs
+48 verbose request where is /bootstrap
+49 verbose request registry https://registry.npmjs.org/
+50 verbose url raw /bootstrap
+51 verbose url resolving [ 'https://registry.npmjs.org/', './bootstrap' ]
+52 verbose url resolved https://registry.npmjs.org/bootstrap
+53 verbose request where is https://registry.npmjs.org/bootstrap
+54 info trying registry request attempt 1 at 18:45:07
+55 verbose etag W/"5828daf8-b1cf"
+56 http GET https://registry.npmjs.org/bootstrap
+57 verbose request where is /jquery
+58 verbose request registry https://registry.npmjs.org/
+59 verbose url raw /jquery
+60 verbose url resolving [ 'https://registry.npmjs.org/', './jquery' ]
+61 verbose url resolved https://registry.npmjs.org/jquery
+62 verbose request where is https://registry.npmjs.org/jquery
+63 info trying registry request attempt 1 at 18:45:07
+64 verbose etag W/"582f2bc1-147ce"
+65 http GET https://registry.npmjs.org/jquery
+66 http 304 https://registry.npmjs.org/angularjs
+67 silly registry.get cb [ 304,
+67 silly registry.get   { date: 'Sun, 20 Nov 2016 10:45:08 GMT',
+67 silly registry.get     via: '1.1 varnish',
+67 silly registry.get     'cache-control': 'max-age=300',
+67 silly registry.get     etag: 'W/"57f7a119-769"',
+67 silly registry.get     age: '66',
+67 silly registry.get     connection: 'keep-alive',
+67 silly registry.get     'x-served-by': 'cache-lcy1140-LCY',
+67 silly registry.get     'x-cache': 'HIT',
+67 silly registry.get     'x-cache-hits': '1',
+67 silly registry.get     'x-timer': 'S1479638708.377250,VS0,VE0',
+67 silly registry.get     vary: 'Accept-Encoding' } ]
+68 verbose etag https://registry.npmjs.org/angularjs from cache
+69 silly lockFile c1775325-angularjs-1-4-10 angularjs@1.4.10
+70 silly lockFile c1775325-angularjs-1-4-10 angularjs@1.4.10
+71 http 304 https://registry.npmjs.org/bootstrap
+72 silly registry.get cb [ 304,
+72 silly registry.get   { date: 'Sun, 20 Nov 2016 10:45:09 GMT',
+72 silly registry.get     via: '1.1 varnish',
+72 silly registry.get     'cache-control': 'max-age=300',
+72 silly registry.get     etag: 'W/"5828daf8-b1cf"',
+72 silly registry.get     age: '35',
+72 silly registry.get     connection: 'keep-alive',
+72 silly registry.get     'x-served-by': 'cache-lcy1121-LCY',
+72 silly registry.get     'x-cache': 'HIT',
+72 silly registry.get     'x-cache-hits': '1',
+72 silly registry.get     'x-timer': 'S1479638709.663417,VS0,VE0',
+72 silly registry.get     vary: 'Accept-Encoding' } ]
+73 verbose etag https://registry.npmjs.org/bootstrap from cache
+74 silly lockFile a2df37ae-rg-bootstrap-bootstrap-3-3-5-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+75 verbose lock https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz /home/hejuan/.npm/a2df37ae-rg-bootstrap-bootstrap-3-3-5-tgz.lock
+76 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz',
+76 verbose addRemoteTarball   '1777ab79299b128d87dce7cbd86fdc46ac69c0b1' ]
+77 http 304 https://registry.npmjs.org/jquery
+78 silly registry.get cb [ 304,
+78 silly registry.get   { date: 'Sun, 20 Nov 2016 10:45:09 GMT',
+78 silly registry.get     via: '1.1 varnish',
+78 silly registry.get     'cache-control': 'max-age=300',
+78 silly registry.get     etag: 'W/"582f2bc1-147ce"',
+78 silly registry.get     age: '109',
+78 silly registry.get     connection: 'keep-alive',
+78 silly registry.get     'x-served-by': 'cache-lcy1149-LCY',
+78 silly registry.get     'x-cache': 'HIT',
+78 silly registry.get     'x-cache-hits': '2',
+78 silly registry.get     'x-timer': 'S1479638709.700220,VS0,VE0',
+78 silly registry.get     vary: 'Accept-Encoding' } ]
+79 verbose etag https://registry.npmjs.org/jquery from cache
+80 info retry fetch attempt 1 at 18:45:09
+81 verbose fetch to= /tmp/npm-11781-x2kIA10D/registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+82 http GET https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+83 silly lockFile 8c49b447-jquery-1-11-3 jquery@1.11.3
+84 silly lockFile 8c49b447-jquery-1-11-3 jquery@1.11.3
+85 http 200 https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+86 silly lockFile a2df37ae-rg-bootstrap-bootstrap-3-3-5-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+87 silly lockFile a2df37ae-rg-bootstrap-bootstrap-3-3-5-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+88 silly lockFile 85083644-bootstrap-3-3-5 bootstrap@3.3.5
+89 silly lockFile 85083644-bootstrap-3-3-5 bootstrap@3.3.5
+90 error Error: version not found: angularjs@1.4.10
+90 error     at /usr/lib/node_modules/npm/lib/cache/add-named.js:125:12
+90 error     at saved (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+90 error     at Object.oncomplete (fs.js:108:15)
+91 error If you need help, you may report this *entire* log,
+91 error including the npm and node versions, at:
+91 error     <http://github.com/npm/npm/issues>
+92 error System Linux 3.19.0-61-generic
+93 error command "/usr/bin/node" "/usr/bin/npm" "install"
+94 error cwd /home/hejuan/work-js/QCC/src
+95 error node -v v0.10.37
+96 error npm -v 1.4.28
+97 verbose exit [ 1, true ]
