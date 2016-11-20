@@ -1,3 +1,1 @@
-# QCC for NetStar Platform at 2016
-
-
+# QCC for Platform Group at 2016
